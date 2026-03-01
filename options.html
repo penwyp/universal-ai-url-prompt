@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Universal AI URL Prompt - Platform Settings</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <h1 id="page-title" class="title">Platform Settings</h1>
+      <p id="page-description" class="description">
+        Choose which AI platforms are enabled for URL prompt injection.
+      </p>
+    </header>
+
+    <section class="toolbar" aria-label="Actions">
+      <button id="enable-all-btn" class="btn btn-primary" type="button">Enable All</button>
+      <button id="disable-all-btn" class="btn" type="button">Disable All</button>
+      <span id="summary" class="summary" aria-live="polite"></span>
+      <span id="status" class="status" role="status" aria-live="polite"></span>
+    </section>
+
+    <section class="list-section" aria-label="Platforms">
+      <ul id="platform-list" class="platform-list"></ul>
+    </section>
+  </main>
+
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Universal AI URL Prompt",
+    "description": "扩展名称"
+  },
+  "appDesc": {
+    "message": "通过网址参数在 20 个主流 AI 平台注入提示词，并支持 10 种常用语言的自动发送识别。",
+    "description": "扩展描述"
+  },
+  "optionsTitle": {
+    "message": "平台设置",
+    "description": "选项页标题"
+  },
+  "optionsDescription": {
+    "message": "选择哪些 AI 平台启用 URL 提示词注入。",
+    "description": "选项页说明"
+  },
+  "optionsEnableAll": {
+    "message": "全部开启",
+    "description": "全部开启按钮"
+  },
+  "optionsDisableAll": {
+    "message": "全部关闭",
+    "description": "全部关闭按钮"
+  },
+  "optionsSummary": {
+    "message": "已开启 $1 / $2 个平台",
+    "description": "平台启用数量"
+  },
+  "optionsHosts": {
+    "message": "域名",
+    "description": "平台域名标签"
+  },
+  "optionsSaved": {
+    "message": "已保存",
+    "description": "保存成功提示"
+  },
+  "optionsSaveFailed": {
+    "message": "保存失败",
+    "description": "保存失败提示"
+  },
+  "optionsLoadFailed": {
+    "message": "加载平台设置失败。",
+    "description": "加载失败提示"
+  }
+}

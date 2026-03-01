@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Universal AI URL Prompt",
+    "description": "擴充功能名稱"
+  },
+  "appDesc": {
+    "message": "透過網址參數在 20 個主流 AI 平台注入提示詞，並支援 10 種常用語言的自動送出識別。",
+    "description": "擴充功能描述"
+  },
+  "optionsTitle": {
+    "message": "平台設定",
+    "description": "選項頁標題"
+  },
+  "optionsDescription": {
+    "message": "選擇哪些 AI 平台啟用 URL 提示詞注入。",
+    "description": "選項頁說明"
+  },
+  "optionsEnableAll": {
+    "message": "全部開啟",
+    "description": "全部開啟按鈕"
+  },
+  "optionsDisableAll": {
+    "message": "全部關閉",
+    "description": "全部關閉按鈕"
+  },
+  "optionsSummary": {
+    "message": "已開啟 $1 / $2 個平台",
+    "description": "平台啟用數量"
+  },
+  "optionsHosts": {
+    "message": "網域",
+    "description": "平台網域標籤"
+  },
+  "optionsSaved": {
+    "message": "已儲存",
+    "description": "儲存成功提示"
+  },
+  "optionsSaveFailed": {
+    "message": "儲存失敗",
+    "description": "儲存失敗提示"
+  },
+  "optionsLoadFailed": {
+    "message": "載入平台設定失敗。",
+    "description": "載入失敗提示"
+  }
+}

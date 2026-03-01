@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Universal AI URL Prompt",
+    "description": "El nombre de la extensión"
+  },
+  "appDesc": {
+    "message": "Inyecta prompts por URL en 20 plataformas AI y reconoce envío automático en 10 idiomas comunes.",
+    "description": "La descripción de la extensión"
+  },
+  "optionsTitle": {
+    "message": "Configuración de plataformas",
+    "description": "Título de la página de opciones"
+  },
+  "optionsDescription": {
+    "message": "Elige qué plataformas de IA están habilitadas para la inyección de prompts por URL.",
+    "description": "Descripción de la página de opciones"
+  },
+  "optionsEnableAll": {
+    "message": "Activar todas",
+    "description": "Botón activar todas"
+  },
+  "optionsDisableAll": {
+    "message": "Desactivar todas",
+    "description": "Botón desactivar todas"
+  },
+  "optionsSummary": {
+    "message": "$1 / $2 plataformas activadas",
+    "description": "Resumen de plataformas activadas"
+  },
+  "optionsHosts": {
+    "message": "Hosts",
+    "description": "Etiqueta de hosts de plataforma"
+  },
+  "optionsSaved": {
+    "message": "Guardado",
+    "description": "Estado guardado"
+  },
+  "optionsSaveFailed": {
+    "message": "Error al guardar",
+    "description": "Estado de error al guardar"
+  },
+  "optionsLoadFailed": {
+    "message": "No se pudo cargar la configuración de plataformas.",
+    "description": "Estado de error al cargar"
+  }
+}
