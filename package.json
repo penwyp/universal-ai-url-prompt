@@ -1,0 +1,31 @@
+{
+  "name": "universal-ai-url-prompt",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Inject prompts into major AI web chatboxes through URL parameters, with optional auto-send.",
+  "license": "MIT",
+  "homepage": "https://github.com/penwyp/universal-ai-url-prompt#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/penwyp/universal-ai-url-prompt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/penwyp/universal-ai-url-prompt/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check:platforms": "node scripts/validate-platform-contract.js",
+    "build:manifest": "node scripts/generate-manifest.js",
+    "package:cws": "npm run build:manifest && node scripts/package-cws.js",
+    "test": "npm run test:e2e",
+    "test:e2e": "npm run check:platforms && npm run build:manifest && playwright test",
+    "test:contract": "npm run test:e2e",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Universal AI URL Prompt",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Inject prompts by URL on 20 major AI web platforms, with auto-send recognition across 10 common languages.",
+    "description": "The description of the extension"
+  },
+  "optionsTitle": {
+    "message": "Platform Settings",
+    "description": "Options page title"
+  },
+  "optionsDescription": {
+    "message": "Choose which AI platforms are enabled for URL prompt injection.",
+    "description": "Options page description"
+  },
+  "optionsEnableAll": {
+    "message": "Enable All",
+    "description": "Enable all platforms button"
+  },
+  "optionsDisableAll": {
+    "message": "Disable All",
+    "description": "Disable all platforms button"
+  },
+  "optionsSummary": {
+    "message": "$1 / $2 platforms enabled",
+    "description": "Enabled platform summary"
+  },
+  "optionsHosts": {
+    "message": "Hosts",
+    "description": "Platform host label"
+  },
+  "optionsSaved": {
+    "message": "Saved",
+    "description": "Saved status"
+  },
+  "optionsSaveFailed": {
+    "message": "Save failed",
+    "description": "Save failed status"
+  },
+  "optionsLoadFailed": {
+    "message": "Failed to load platform settings.",
+    "description": "Load failed status"
+  }
+}
